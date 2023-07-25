@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="@drawable/mic"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:text="Roman to Decimal"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Convertor "
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="189dp"
+        android:layout_height="217dp"
+
+        android:layout_marginTop="30dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/roman1" />
+
+    <EditText
+        android:id="@+id/romanEditText"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Enter Roman Number:"
+        android:textColorHint="@color/black"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="textCapCharacters"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:paddingTop="16dp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonConvert1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:gravity="center"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:text="Convert"
+        />
+
+</LinearLayout>

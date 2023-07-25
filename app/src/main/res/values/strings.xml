@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Roman Convertor</string>
+    <string-array name="navi">
+        <item>Decimal to Roman</item>
+        <item>Roman to Decimal</item>
+        <item>HOME</item>
+    </string-array>
+
+
+</resources>
